@@ -19,6 +19,16 @@ The project implements a hybrid **Encoder-Decoder** architecture:
 - **Preprocessing:** Applied text tokenization, vocabulary building, and image resizing/normalization.
 - **Evaluation:** Performance is measured using the **BLEU Score** metric to quantify the similarity between the machine-generated captions and human reference captions.
 
+## 📂 Dataset
+This model works with the **Flickr8k Dataset**.
+Due to file size limits, the image data is not included in this repository.
+
+**Download Instructions:**
+1. Download the dataset from [Kaggle - Flickr8k Dataset](https://www.kaggle.com/adityajn105/flickr8k).
+2. Unzip the folder.
+3. Place the `Images` folder inside the root directory of this project.
+
+   
 ## 🚀 How to Run
 1. Clone the repository:
    ```bash
